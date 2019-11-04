@@ -1,0 +1,14 @@
+﻿spring:
+  profoles:
+    active:
+    - dev
+---
+spring:
+  profoles: dev
+  application:
+    name: microservicecloud-config-atguigu-dev
+---
+spring:
+  profoles: test
+  application:
+    name: microservicecloud-config-atguigu-test
